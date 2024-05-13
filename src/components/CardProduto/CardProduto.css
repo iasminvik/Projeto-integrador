@@ -1,0 +1,16 @@
+.Produtoimg {
+    width: 400px;
+    height: 400px;
+
+}
+body {
+    background-color: pink;
+}
+
+.card {
+    background-color: rgb(255, 135, 155);
+}
+
+.produtoAjuste {
+    color: yellow;
+}
