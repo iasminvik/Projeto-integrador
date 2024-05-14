@@ -69,7 +69,7 @@ const App = () => {
     ];
 
     return (
-        <div className='container-fluid'>
+        <div className='container-5'>
             <Menu className='col-12' itensMenu={itensMenu} />
             <div >
                 <div className="row">

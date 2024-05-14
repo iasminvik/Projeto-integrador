@@ -6,7 +6,7 @@ const CardProduto = ({ produto }) => {
         <body>
         <div className="card">
             <div className='Produtoimg'>
-            <img src={produto.imagem} className="card-img-top" alt={produto.titulo} />          
+            <img src={produto.imagem} className="card-img" alt={produto.titulo} />          
             </div>
             <div className="card-body">
                 <p className="card-text">{produto.descricao}</p>

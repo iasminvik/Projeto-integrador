@@ -4,7 +4,8 @@ import './Menu.css';
 
 const Menu = ({ itensMenu }) => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className='backg'>
+                    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid logo">
                 <a className="navbar-brand" href="">
                 <img
@@ -22,6 +23,8 @@ const Menu = ({ itensMenu }) => {
                 </div>
             </div>
         </nav>
+        </div>
+
     );
 };
 
