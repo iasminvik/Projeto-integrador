@@ -1,14 +1,6 @@
-.footer {
-    background-color: #222; 
-    padding: 20px; 
-    color: #fff; 
-}
-
-.footer-link {
-    color: #fff; 
-    margin-right: 10px; 
-}
-
-.footer-link:hover {
-    text-decoration: underline;
+.ajusteimg2 {
+    display: flex;
+    margin-left: 1700px;
+    width: 50px;
+    height: 50px;
 }

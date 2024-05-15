@@ -1,12 +1,18 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
         <footer className="footer bg-dark text-light py-4">
+            <div className='ajusteimg2'>
+                <img src="./img/face2.png" alt="imagemli" />
+                <img src="./img/insta2.png" alt="imagemli" />
+             </div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <p>&copy; {new Date().getFullYear()} Transformando Momentos em doces e lembranças</p>
+                        <p>&copy; {new Date().getFullYear()} Lih Bolos Artesanais</p>
+                        <p>Sabor e Qualidade em cada Fatia!</p>
                     </div>
                     <div className="col-md-6">
                         <div className="text-md-end">
@@ -15,11 +21,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="mt-3">
-                <a href="#" className="btn btn-outline-light me-2"><i className="bi bi-twitter"></i></a>
-                <a href="#" className="btn btn-outline-light me-2"><i className="bi bi-linkedin"></i></a>
-                <a href="#" className="btn btn-outline-light me-2"><i className="bi bi-instagram"></i></a>
             </div>
         </footer>
     );

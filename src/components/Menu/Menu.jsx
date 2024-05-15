@@ -17,7 +17,7 @@ const Menu = ({ itensMenu }) => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto menu">
                         {itensMenu.map((item, index) => (
-                            <ItemMenu key={index} label={item.label} onClick={item.onClick} />
+                            <ItemMenu key={index} label={item.label} href={item.href} />
                         ))}
                     </ul>
                 </div>

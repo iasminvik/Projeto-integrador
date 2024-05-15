@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SobreLi = ({ src, alt , className }) => {
+const SobreLi = ({}) => {
     return (
         <img src="" alt="" />
     );

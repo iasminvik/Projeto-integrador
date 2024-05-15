@@ -10,10 +10,11 @@ import "./App.css"
 
 const App = () => {
     const itensMenu = [
-        { label: 'QUEM SOU?', onClick: () => console.log('Clicou no Item 1') },
-        { label: 'PRODUTOS', onClick: () => console.log('Clicou no Item 2') },
-        { label: 'CONTATO', onClick: () => console.log('Clicou no Item 3') },
+        { label: 'QUEM SOU?', href: '#quemSou' },
+        { label: 'PRODUTOS', href: '#produtos'},
+        { label: 'CONTATO', href: 'https://api.whatsapp.com/send/?phone=5517991635046&text&type=phone_number&app_absent=0' },
     ];
+    
 
     const imagensCarousel = [
         { src: "/img/banner1.png", alt: "Slide 1" },
@@ -27,44 +28,44 @@ const App = () => {
         {
             imagem: "/img/BoloPiscina.png",
             titulo: "Bolo Piscina",
-            descricao: "Descrição do Produto 1",
-            link: "https://exemplo.com/produto1"
+            descricao: "Chocolate com Brigadeiro, Choconinho, Cenoura com Brigadeiro, Coco com creme de coco ",
+            link: "https://api.whatsapp.com/send/?phone=5517991635046&text&type=phone_number&app_absent=0"
         },
         {
             imagem: "/img/BoloPiscina1.png",
             titulo: "Bolo Gelado",
-            descricao: "Descrição do Produto 2",
-            link: "https://exemplo.com/produto2"
+            descricao: "Limão, Coco, Chocolate com cobertura de ninho com Nutella, Chocolate com Brigadeiro",
+            link: "https://api.whatsapp.com/send/?phone=5517991635046&text&type=phone_number&app_absent=0"
         },
         {
             imagem: "/img/BoloPiscina3.png",
             titulo: "Bolo com Cobertura",
-            descricao: "Descrição do Produto 3",
-            link: "https://exemplo.com/produto3"
+            descricao: "Com brigadeiro: Cenoura, Chocolate, Formigueiro, Com mousse de ninho(branco ou rosa): Chocolate, Formigueiro, Branco, Com choconinho: Chocolate, Formigueiro, Com calda: Laranja, Banana, Com mousse de limão: Limão",
+            link: "https://api.whatsapp.com/send/?phone=5517991635046&text&type=phone_number&app_absent=0"
         },
         {
             imagem: "/img/BoloPiscina4.png",
             titulo: "Bolo Vulcão",
-            descricao: "Descrição do Produto 4",
-            link: "https://exemplo.com/produto4"
+            descricao: "Cenoura com brigadeiro, Chocolate com brigadeiro, Chocolate com choconinho",
+            link: "https://api.whatsapp.com/send/?phone=5517991635046&text&type=phone_number&app_absent=0"
         },
         {
             imagem: "/img/BoloPiscina5.png",
             titulo: "Biscoitos Amanteigados",
-            descricao: "Descrição do Produto 5",
-            link: "https://exemplo.com/produto5"
+            descricao: "coroa, flor, meias de natal, bonecos de natal, planta, flocos de neve, espiga de milho, feliz dia das mães, coracão, circulo: ",
+            link: "https://api.whatsapp.com/send/?phone=5517991635046&text&type=phone_number&app_absent=0"
         },
         {
             imagem: "/img/BoloPiscina6.png",
             titulo: "Mini Bolos",
-            descricao: "Descrição do Produto 6",
-            link: "https://exemplo.com/produto2"
+            descricao: "Com brigadeiro: Cenoura, Formigueiro, Com mousse de ninho: Cenoura, Formigueiro",
+            link: "https://api.whatsapp.com/send/?phone=5517991635046&text&type=phone_number&app_absent=0"
         },
         {
             imagem: "/img/BoloPiscina2.png",
-            titulo: "Mini Bolos",
-            descricao: "Descrição do Produto 6",
-            link: "https://exemplo.com/produto2"
+            titulo: "Bolo Caseiro",
+            descricao: "Chocolate, Fubá, Fubá com erva doce, Formigueiro, Cenoura, Milho, Bolo branco",
+            link: "https://api.whatsapp.com/send/?phone=5517991635046&text&type=phone_number&app_absent=0"
         },
     ];
 
@@ -77,19 +78,19 @@ const App = () => {
                         <Carousel imagens={imagensCarousel} />
                     </div>
                 </div>
-                <div className='container-fluid'>
+                <div id='quemSou' className='container-fluid'>
                     <div className='col-12'>
                         <SecaoLi/>
                     </div>
 
                 </div>
-                <div className="row">
+                <div id='produtos'className="row">
                     <div className="col-lg-12">
                         <SecaoProdutos produtos={produtos} />
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer id='contato'/>
         </div>
     );
 }

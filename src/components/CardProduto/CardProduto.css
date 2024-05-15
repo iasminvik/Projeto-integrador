@@ -1,24 +1,12 @@
-.Produtoimg {
-    width: 400px;
-    height: 400px;
-
-}
-body {
-    background-color: pink;
+.card a{
+    background-color: rgb(190, 255, 68);
+    color: black;
 }
 
 .card {
-    background-color: rgb(212, 121, 136);
-}
-
-.produtoAjuste {
-    color: rgb(218, 255, 6);
+    color: white;
     display: flex;
     justify-content: center;
-    padding-top: 90px;
-    padding-bottom: 50px;
-}
-
-p {
-    color: white;
+    align-items: center;
+    background-color: rgb(204, 118, 118);
 }

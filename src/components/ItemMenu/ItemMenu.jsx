@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ItemMenu = ({ label, onClick }) => {
+const ItemMenu = ({ label, href }) => {
     return (
         <li className="nav-item">
-            <button className="menu-item nav-link btn btn-link" onClick={onClick}>{label}</button>
+            <a className="menu-item nav-link btn btn-link" href={href}>{label}</a>
         </li>
     );
 };
