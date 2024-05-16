@@ -3,15 +3,13 @@ import './secaoLi.css';
 
 const SecaoLi = ({li}) => {
     return (
-        <div className="parte3">
-            <div className='ajustetitulo'>
+        <div className="parte3 row">
+            <div className='col-sm-12 col-md-4'>
                  <h1>Quem sou?</h1>
+                    <img src="./img/li.png" className='img-fluid' alt="imagemli" />
+                
             </div>
-           
-             <div className='ajusteimg'>
-                <img src="./img/li.png" alt="imagemli" />
-             </div>
-            <div className='ajustep'>
+            <div className='col-sm-12 col-md-8 d-flex my-auto'>
                 <p>Oiê, sou Elisângela Santos De Campos Drapela, boleira desde 2021 na Lih bolos artesanais.
 
                 Meu trabalho através dos bolos é poder entregar lembranças afetivas afinal, bolo caseiro é carinho, cuidado e amor.

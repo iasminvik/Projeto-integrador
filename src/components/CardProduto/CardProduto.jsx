@@ -8,7 +8,10 @@ const CardProduto = ({ produto }) => {
             <div className="card-body">
                 <h5 className="card-title">{produto.titulo}</h5>
                 <p className="card-text">{produto.descricao}</p>
-                <a href={produto.link} className="btn btn-primary">Entrar em Contato!</a>
+                
+            </div>
+            <div className='card-footer w-100 d-flex justify-content-center'>
+            <a href={produto.link} className="btn btn-primary">Entrar em Contato!</a>
             </div>
         </div>
     );

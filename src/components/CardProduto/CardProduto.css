@@ -4,9 +4,16 @@
 }
 
 .card {
+   
     color: white;
-    display: flex;
+    height: 100%;
+    max-height: max-content;
     justify-content: center;
     align-items: center;
     background-color: rgb(204, 118, 118);
+}
+.card img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
 }

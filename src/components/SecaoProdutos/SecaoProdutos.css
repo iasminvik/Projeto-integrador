@@ -1,9 +1,8 @@
-.container2 h2 {
+.container h2 {
     color: rgb(255, 255, 255);
     font-family: fantasy;
     font-size: 50px;
-    margin: 500px;
-    padding: 50px;
+    padding-top: 100px;
 }
 .row2 {
     width: 400px;
@@ -12,9 +11,4 @@
     display: flex;
     justify-content: center;
 
-}
-.container2 {
-    padding: 5px;
-    padding-bottom: 195px;
-    margin-left: 195px;
 }
