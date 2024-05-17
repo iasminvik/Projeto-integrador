@@ -1,13 +1,9 @@
 import React from 'react';
 import './Footer.css'
 
-const Footer = () => {
+const Footer = (img) => {
     return (
         <footer className="footer bg-dark text-light py-4">
-            <div className='ajusteimg2'>
-                <img src="./img/face2.png" alt="imagemli" />
-                <img src="./img/insta2.png" alt="imagemli" />
-             </div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
